@@ -1,0 +1,56 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box; 
+    font-family: "gilroy";
+}
+html,body{
+    height:100%;
+    width:100%;
+}
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 100%;
+    width: 100%;
+    background-color: antiquewhite;
+    position: relative;
+    
+}
+.groups{
+    display: flex;
+    gap: 20px;
+}
+
+.frames{
+    height: 5vw;
+    overflow: hidden;
+    position: relative;
+}
+.frames span{
+    font-size: 3vw;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    height: 5vw;
+    padding: 0 5vw;
+    text-align: center;
+    position: relative;
+    z-index: 2;
+    cursor: pointer;
+
+}
+
+.cursor{
+    pointer-events: none;
+    height: 30px;
+    width: 30px;
+    background-color: rgb(221, 54, 221);
+    border-radius: 50%;
+    position: fixed;
+    z-index: 1;
+ 
+}
